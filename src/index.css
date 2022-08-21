@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #23252c;
+}
+
+.card {
+    max-width: 320px;
+    padding: 0 25px;
+    border-radius: 10px;
+    background-color: #1a1b21;
+    overflow: hidden;
+    color: white;
+}
+
+.card a {
+    color: white;
+    text-decoration: none;
+}
+
+header,
+.header--info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.person-image {
+    width: 320px;
+    height: auto;
+    object-fit: cover;
+}
+
+.header--info {
+    margin: 20px 0;
+}
+
+.header--info .name,
+.header--info .profession,
+.header--info .website,
+.header--info .header--buttons {
+    margin: 5px 0;
+}
+
+.header--buttons {
+    display: flex;
+    justify-content: space-around;
+}
